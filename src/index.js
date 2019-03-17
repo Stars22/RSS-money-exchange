@@ -1,4 +1,3 @@
-// PLEASE DON'T change function name
 module.exports = function makeExchange(currency) {
     const exchange = {};
     function exchangeCalc(coinValue, coinName){
@@ -18,6 +17,4 @@ module.exports = function makeExchange(currency) {
         exchangeCalc(coinVals[coinName], coinName)
     }
     return exchange;
-
 }
-
